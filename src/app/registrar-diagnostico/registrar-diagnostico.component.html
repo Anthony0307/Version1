@@ -1,0 +1,21 @@
+<div>
+  <h2>Registrar Diagnóstico</h2>
+  <form [formGroup]="diagnosticoForm" (ngSubmit)="registrarDiagnostico()">
+    <label for="paciente">Paciente:</label>
+    <input type="text" id="paciente" formControlName="paciente" required>
+
+    <label for="enfermedad">Enfermedad:</label>
+    <input type="text" id="enfermedad" formControlName="enfermedad" required>
+
+    <label for="tratamiento">Tratamiento:</label>
+    <textarea id="tratamiento" formControlName="tratamiento" rows="4"></textarea>
+
+    <label for="observaciones">Observaciones:</label>
+    <textarea id="observaciones" formControlName="observaciones" rows="4"></textarea>
+
+    <button type="submit" [disabled]="!diagnosticoForm.valid">Registrar Diagnóstico</button>
+    <div *ngIf="diagnosticoRegistradoExitoso" class="mensaje-exito">
+      ¡Diagnóstico registrado exitosamente!
+    </div>
+  </form>
+</div>

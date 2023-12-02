@@ -1,0 +1,51 @@
+// registro.component.scss
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  color: #333; // Color oscuro para el título
+  margin-bottom: 20px;
+}
+
+form {
+  width: 300px; // Ancho del formulario
+  padding: 20px;
+  border: 1px solid #ccc; // Borde gris claro
+  border-radius: 5px;
+  background-color: #f8f8f8; // Fondo gris claro
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555; // Color de texto gris oscuro
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px;
+  background-color: #4caf50; // Color de fondo verde
+  color: #fff; // Texto blanco
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc; // Fondo gris cuando está deshabilitado
+  cursor: not-allowed;
+}
+
+// Agregar estilos específicos para los campos de médico o paciente según sea necesario
