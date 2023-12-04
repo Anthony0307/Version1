@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpClientModule } from '@angular/common/http';  // Importa HttpClientModule
+import { HttpClientModule } from '@angular/common/http'; 
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -24,7 +24,7 @@ import { RegistrarDiagnosticoComponent } from './registrar-diagnostico/registrar
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule  // Agrega HttpClientModule aquí
+    HttpClientModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
