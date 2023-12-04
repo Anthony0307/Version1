@@ -40,7 +40,7 @@ export class AgendarCitaComponent {
         }
       );
     } else {
-      // El formulario no es válido, puedes mostrar mensajes de validación o deshabilitar el botón de agendar cita.
+      // El formulario no es válido, se puede mostrar mensajes de validación o deshabilitar el botón de agendar cita.
     }
   }
 }
