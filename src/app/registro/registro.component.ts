@@ -56,7 +56,7 @@ export class RegistroComponent {
         console.error('Error: No se pudo obtener el control de tipoUsuario.');
       }
     } else {
-      // El formulario no es válido, puedes mostrar mensajes de validación o deshabilitar el botón de registro.
+      // El formulario no es válido, se puede mostrar mensajes de validación o deshabilitar el botón de agendar cita.
     }
   }
 }
