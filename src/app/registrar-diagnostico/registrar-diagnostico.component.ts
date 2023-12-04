@@ -40,7 +40,7 @@ export class RegistrarDiagnosticoComponent {
         }
       );
     } else {
-      // El formulario no es válido, puedes mostrar mensajes de validación o deshabilitar el botón de registrar diagnóstico.
+      // El formulario no es válido, se puede mostrar mensajes de validación o deshabilitar el botón de agendar cita.
     }
   }
 }
